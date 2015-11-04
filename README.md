@@ -51,7 +51,8 @@ public class Listing_4_16_Project {
 
 		// Display the upper case letter 
 			System.out.println("Your random upper case letter is: " + (char)randomUpperCaseNumberLetter);}
-	
+		
+		// Start a new method	
 	public static int randomUpperCaseLetter(){
 		// Declare our number range for the upper case letter
 			int minLimit = 65;
@@ -237,6 +238,96 @@ remote: hooks/pre-receive.rb:55: warning: already initialized constant PRE_RECEI
 remote: hooks/pre-receive.rb:48: warning: previous definition of PRE_RECEIVE_CHECKS was here
 To https://github.com/NathanChatham/Listing_4_16_Project.git
    4d83c8c..76ecda6  master -> master
+
+C:\Users\natha_000\Desktop\COMSC Workspace\Listing_4_16_Project>git pull
+remote: Counting objects: 6, done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+From https://github.com/NathanChatham/Listing_4_16_Project
+   76ecda6..039569b  master     -> origin/master
+Updating 76ecda6..039569b
+Fast-forward
+ README.md | 242 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 242 insertions(+)
+
+C:\Users\natha_000\Desktop\COMSC Workspace\Listing_4_16_Project>git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com':
+Password for 'https://github.com':
+remote: Anonymous access to NathanChatham/Listing_4_16_Project.git denied.
+fatal: Authentication failed for 'https://github.com/NathanChatham/Listing_4_16_Project.git/'
+
+C:\Users\natha_000\Desktop\COMSC Workspace\Listing_4_16_Project>git add .
+
+C:\Users\natha_000\Desktop\COMSC Workspace\Listing_4_16_Project>git commit -m "This is my final commit before submittingthe assignment."
+[master 1cbe255] This is my final commit before submittingthe assignment.
+ Committer: Nathan Chatham <Nathan Chatham>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 2 insertions(+), 1 deletion(-)
+
+C:\Users\natha_000\Desktop\COMSC Workspace\Listing_4_16_Project>git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': NathanChatham
+Password for 'https://NathanChatham@github.com':
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 683 bytes | 0 bytes/s, done.
+Total 7 (delta 3), reused 0 (delta 0)
+To https://github.com/NathanChatham/Listing_4_16_Project.git
+   039569b..1cbe255  master -> master
 ```
 
 ## Summary
