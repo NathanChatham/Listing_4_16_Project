@@ -7,6 +7,7 @@ public class Listing_4_16_Project {
 		// Display the upper case letter 
 			System.out.println("Your random upper case letter is: " + (char)randomUpperCaseNumberLetter);}
 	
+		// Start a new method
 	public static int randomUpperCaseLetter(){
 		// Declare our number range for the upper case letter
 			int minLimit = 65;

@@ -65,7 +65,7 @@ public class Listing_4_16_Project {
 ```
 
 ## Console Output
-I tested the program 3 times to test that it outputed randomly.
+I tested the program 3 times to ensure that it outputed randomly.
 
 ```
 Your random upper case letter is: L
